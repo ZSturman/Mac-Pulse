@@ -1,0 +1,231 @@
+{
+  "project": "CPU and Memory Monitor",
+  "projectPath": "/Users/zacharysturman/Workspace/Projects/CPU and Memory Monitor",
+  "projectID": "81B78278-521D-4494-8C28-50FD065EC536",
+  "historicalAuditCovered": true,
+  "type": "CLI / analysis software",
+  "organizationalSpace": false,
+  "purpose": {
+    "text": "No app UI startup was verified for this folder in this pass. Earlier validation: build **NOT RUN**, tests **NO TESTS**. Static checks do not establish product completeness.",
+    "source": "/Users/zacharysturman/Workspace/Projects/CPU and Memory Monitor/README.md",
+    "confidence": "documented"
+  },
+  "nativeStatus": null,
+  "nativePhase": null,
+  "nativeStoredNextWorkCategories": [
+    "Configuration"
+  ],
+  "notionPageID": "33baec94-4d3c-8067-b6fd-d81c767d7dc2",
+  "notionMatch": "verified_bound_directory",
+  "localOnlyOwnerAccepted": false,
+  "notionVerifiedAt": "2026-10-10T20:24:15Z",
+  "notionStatus": null,
+  "notionPhase": null,
+  "notionNextWorkCategories": [
+    "Documentation",
+    "Configuration",
+    "Integration",
+    "Planning"
+  ],
+  "taskOutcomes": {
+    "present/open": 4
+  },
+  "tasks": [
+    {
+      "id": "2d42d02a-59eb-5ce2-8082-b397b373858a",
+      "title": "CPU and Memory Monitor — Confirm the smallest useful result described in the current source",
+      "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Confirm the smallest useful result described in the current source.bw.md",
+      "status": "open",
+      "delegation": "USER + AGENT"
+    },
+    {
+      "id": "1aaf8b56-d0b7-52e1-96b4-3486b7650a7f",
+      "title": "CPU and Memory Monitor — Cover display_usage in main.py",
+      "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Cover display_usage in main.py.bw.md",
+      "status": "open",
+      "delegation": "AGENT"
+    },
+    {
+      "id": "19762eeb-08c2-5d48-adbf-429722cfbdc5",
+      "title": "CPU and Memory Monitor — Establish an isolated initialization check for main.py",
+      "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Establish an isolated initialization check for main.py.bw.md",
+      "status": "open",
+      "delegation": "AGENT"
+    },
+    {
+      "id": "13db8c4f-69cb-5c14-8309-0536a456cc27",
+      "title": "CPU and Memory Monitor — Document a reproducible startup path for main.py",
+      "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Document a reproducible startup path for main.py.bw.md",
+      "status": "open",
+      "delegation": "AGENT"
+    }
+  ],
+  "removedBoilerplate": [],
+  "flows": [],
+  "validation": [],
+  "historicalValidation": {
+    "BuildStatus": "NOT RUN",
+    "TestStatus": "NO TESTS",
+    "SmokeTestStatus": "NOT RUN",
+    "ValidationCoverage": "Static/content inspection; execution incomplete",
+    "EvidenceConfidence": "Low"
+  },
+  "nextAgentAction": {
+    "body": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Why\nReview the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Evidence\n- main.py\n\n## Action details\n- Priority: P2 · Action Score: 57/100\n- Delegation: USER + AGENT\n- Tags: PRODUCT, DECISION\n- Requirements: Coding Agent, Human Judgment\n- Agent Executability: 65/100 · Human Involvement: 85/100\n- Estimated effort: 22–45 minutes\n\n## Agent subtasks\n- [ ] Summarize the implemented flow and unfinished boundaries from the current source and audit results.\n\n## User subtasks\n- [ ] Choose the intended acceptance scenario and confirm the feature boundary.",
+    "dependencies": [],
+    "extraFrontMatter": [
+      "action-metadata: \"{\\\"delegation\\\":\\\"USER + AGENT\\\",\\\"priority\\\":\\\"P2\\\",\\\"version\\\":1,\\\"evidence\\\":[\\\"main.py\\\"],\\\"isNextWork\\\":true,\\\"reason\\\":\\\"Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\\\",\\\"requirements\\\":[\\\"Coding Agent\\\",\\\"Human Judgment\\\"],\\\"actionScore\\\":57,\\\"agentExecutability\\\":65,\\\"category\\\":\\\"Product decision\\\",\\\"tags\\\":[\\\"PRODUCT\\\",\\\"DECISION\\\"],\\\"agentSubtasks\\\":[\\\"Summarize the implemented flow and unfinished boundaries from the current source and audit results.\\\"],\\\"isNextAgentAction\\\":true,\\\"blockedBy\\\":[],\\\"userSubtasks\\\":[\\\"Choose the intended acceptance scenario and confirm the feature boundary.\\\"],\\\"fingerprint\\\":\\\"audit:eb722023-6383-5b30-854b-44a1c75a4048\\\",\\\"humanInvolvement\\\":85,\\\"estimatedEffort\\\":\\\"22–45 minutes\\\",\\\"isNextUserAction\\\":true}\""
+    ],
+    "id": "2d42d02a-59eb-5ce2-8082-b397b373858a",
+    "kind": "task",
+    "metadata": {
+      "actionScore": 57,
+      "agentExecutability": 65,
+      "agentSubtasks": [
+        "Summarize the implemented flow and unfinished boundaries from the current source and audit results."
+      ],
+      "blockedBy": [],
+      "category": "Product decision",
+      "delegation": "USER + AGENT",
+      "estimatedEffort": "22–45 minutes",
+      "evidence": [
+        "main.py"
+      ],
+      "fingerprint": "audit:eb722023-6383-5b30-854b-44a1c75a4048",
+      "humanInvolvement": 85,
+      "isNextAgentAction": true,
+      "isNextUserAction": true,
+      "isNextWork": true,
+      "priority": "P2",
+      "reason": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.",
+      "requirements": [
+        "Coding Agent",
+        "Human Judgment"
+      ],
+      "tags": [
+        "PRODUCT",
+        "DECISION"
+      ],
+      "userSubtasks": [
+        "Choose the intended acceptance scenario and confirm the feature boundary."
+      ],
+      "version": 1
+    },
+    "notionPageID": "",
+    "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Confirm the smallest useful result described in the current source.bw.md",
+    "priority": "medium",
+    "projectPath": "Projects/CPU and Memory Monitor",
+    "sha256": "202667c72582df0870f588694edb04de702bf60ea9c2204b5bcbf1b23eeeac0c",
+    "stage": "now",
+    "status": "open",
+    "title": "CPU and Memory Monitor — Confirm the smallest useful result described in the current source"
+  },
+  "nextUserAction": {
+    "body": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Why\nReview the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Evidence\n- main.py\n\n## Action details\n- Priority: P2 · Action Score: 57/100\n- Delegation: USER + AGENT\n- Tags: PRODUCT, DECISION\n- Requirements: Coding Agent, Human Judgment\n- Agent Executability: 65/100 · Human Involvement: 85/100\n- Estimated effort: 22–45 minutes\n\n## Agent subtasks\n- [ ] Summarize the implemented flow and unfinished boundaries from the current source and audit results.\n\n## User subtasks\n- [ ] Choose the intended acceptance scenario and confirm the feature boundary.",
+    "dependencies": [],
+    "extraFrontMatter": [
+      "action-metadata: \"{\\\"delegation\\\":\\\"USER + AGENT\\\",\\\"priority\\\":\\\"P2\\\",\\\"version\\\":1,\\\"evidence\\\":[\\\"main.py\\\"],\\\"isNextWork\\\":true,\\\"reason\\\":\\\"Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\\\",\\\"requirements\\\":[\\\"Coding Agent\\\",\\\"Human Judgment\\\"],\\\"actionScore\\\":57,\\\"agentExecutability\\\":65,\\\"category\\\":\\\"Product decision\\\",\\\"tags\\\":[\\\"PRODUCT\\\",\\\"DECISION\\\"],\\\"agentSubtasks\\\":[\\\"Summarize the implemented flow and unfinished boundaries from the current source and audit results.\\\"],\\\"isNextAgentAction\\\":true,\\\"blockedBy\\\":[],\\\"userSubtasks\\\":[\\\"Choose the intended acceptance scenario and confirm the feature boundary.\\\"],\\\"fingerprint\\\":\\\"audit:eb722023-6383-5b30-854b-44a1c75a4048\\\",\\\"humanInvolvement\\\":85,\\\"estimatedEffort\\\":\\\"22–45 minutes\\\",\\\"isNextUserAction\\\":true}\""
+    ],
+    "id": "2d42d02a-59eb-5ce2-8082-b397b373858a",
+    "kind": "task",
+    "metadata": {
+      "actionScore": 57,
+      "agentExecutability": 65,
+      "agentSubtasks": [
+        "Summarize the implemented flow and unfinished boundaries from the current source and audit results."
+      ],
+      "blockedBy": [],
+      "category": "Product decision",
+      "delegation": "USER + AGENT",
+      "estimatedEffort": "22–45 minutes",
+      "evidence": [
+        "main.py"
+      ],
+      "fingerprint": "audit:eb722023-6383-5b30-854b-44a1c75a4048",
+      "humanInvolvement": 85,
+      "isNextAgentAction": true,
+      "isNextUserAction": true,
+      "isNextWork": true,
+      "priority": "P2",
+      "reason": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.",
+      "requirements": [
+        "Coding Agent",
+        "Human Judgment"
+      ],
+      "tags": [
+        "PRODUCT",
+        "DECISION"
+      ],
+      "userSubtasks": [
+        "Choose the intended acceptance scenario and confirm the feature boundary."
+      ],
+      "version": 1
+    },
+    "notionPageID": "",
+    "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Confirm the smallest useful result described in the current source.bw.md",
+    "priority": "medium",
+    "projectPath": "Projects/CPU and Memory Monitor",
+    "sha256": "202667c72582df0870f588694edb04de702bf60ea9c2204b5bcbf1b23eeeac0c",
+    "stage": "now",
+    "status": "open",
+    "title": "CPU and Memory Monitor — Confirm the smallest useful result described in the current source"
+  },
+  "nextWork": {
+    "body": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Why\nReview the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\n\n## Evidence\n- main.py\n\n## Action details\n- Priority: P2 · Action Score: 57/100\n- Delegation: USER + AGENT\n- Tags: PRODUCT, DECISION\n- Requirements: Coding Agent, Human Judgment\n- Agent Executability: 65/100 · Human Involvement: 85/100\n- Estimated effort: 22–45 minutes\n\n## Agent subtasks\n- [ ] Summarize the implemented flow and unfinished boundaries from the current source and audit results.\n\n## User subtasks\n- [ ] Choose the intended acceptance scenario and confirm the feature boundary.",
+    "dependencies": [],
+    "extraFrontMatter": [
+      "action-metadata: \"{\\\"delegation\\\":\\\"USER + AGENT\\\",\\\"priority\\\":\\\"P2\\\",\\\"version\\\":1,\\\"evidence\\\":[\\\"main.py\\\"],\\\"isNextWork\\\":true,\\\"reason\\\":\\\"Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.\\\",\\\"requirements\\\":[\\\"Coding Agent\\\",\\\"Human Judgment\\\"],\\\"actionScore\\\":57,\\\"agentExecutability\\\":65,\\\"category\\\":\\\"Product decision\\\",\\\"tags\\\":[\\\"PRODUCT\\\",\\\"DECISION\\\"],\\\"agentSubtasks\\\":[\\\"Summarize the implemented flow and unfinished boundaries from the current source and audit results.\\\"],\\\"isNextAgentAction\\\":true,\\\"blockedBy\\\":[],\\\"userSubtasks\\\":[\\\"Choose the intended acceptance scenario and confirm the feature boundary.\\\"],\\\"fingerprint\\\":\\\"audit:eb722023-6383-5b30-854b-44a1c75a4048\\\",\\\"humanInvolvement\\\":85,\\\"estimatedEffort\\\":\\\"22–45 minutes\\\",\\\"isNextUserAction\\\":true}\""
+    ],
+    "id": "2d42d02a-59eb-5ce2-8082-b397b373858a",
+    "kind": "task",
+    "metadata": {
+      "actionScore": 57,
+      "agentExecutability": 65,
+      "agentSubtasks": [
+        "Summarize the implemented flow and unfinished boundaries from the current source and audit results."
+      ],
+      "blockedBy": [],
+      "category": "Product decision",
+      "delegation": "USER + AGENT",
+      "estimatedEffort": "22–45 minutes",
+      "evidence": [
+        "main.py"
+      ],
+      "fingerprint": "audit:eb722023-6383-5b30-854b-44a1c75a4048",
+      "humanInvolvement": 85,
+      "isNextAgentAction": true,
+      "isNextUserAction": true,
+      "isNextWork": true,
+      "priority": "P2",
+      "reason": "Review the current implementation against the documented project purpose. Choose one concrete acceptance scenario that would make the next iteration useful, and identify which documented features may wait.",
+      "requirements": [
+        "Coding Agent",
+        "Human Judgment"
+      ],
+      "tags": [
+        "PRODUCT",
+        "DECISION"
+      ],
+      "userSubtasks": [
+        "Choose the intended acceptance scenario and confirm the feature boundary."
+      ],
+      "version": 1
+    },
+    "notionPageID": "",
+    "path": "/Users/zacharysturman/Workspace/To Do/CPU and Memory Monitor — Confirm the smallest useful result described in the current source.bw.md",
+    "priority": "medium",
+    "projectPath": "Projects/CPU and Memory Monitor",
+    "sha256": "202667c72582df0870f588694edb04de702bf60ea9c2204b5bcbf1b23eeeac0c",
+    "stage": "now",
+    "status": "open",
+    "title": "CPU and Memory Monitor — Confirm the smallest useful result described in the current source"
+  },
+  "ownerDecisions": [
+    "Choose the intended local lifecycle status/phase. Native values: unset / unset. Bound Notion values: unset / unset; preserve current values until reviewed.",
+    "Review native stored versus current Notion next-work categories through the owning workflow; preserve pending graph edits. Native stored: ['Configuration']; Notion: ['Documentation', 'Configuration', 'Integration', 'Planning']. Selected task actions below are separate from these category fields.",
+    "Review chronology for status details (page 33baec94-4d3c-8067-b6fd-d81c767d7dc2, field T%7CtZ): No reliable latest local field time, contradictory draft/service values, or dates fall inside the remote change interval. Preserve existing values. Local and remote values/recovery are retained in /Users/zacharysturman/Workspace/Projects/_Workspace Audit/2026-10-10/owner-local-reconciliation/chronology-conflicts.json. A missing Send receipt does not invalidate the Notion value."
+  ],
+  "canonicalDetails": "/Users/zacharysturman/Workspace/Projects/CPU and Memory Monitor/docs/WORKSPACE_RECONCILIATION.md",
+  "canonicalStructuredDetails": "/Users/zacharysturman/Workspace/Projects/CPU and Memory Monitor/docs/WORKSPACE_RECONCILIATION.json",
+  "outcome": "owner_review"
+}
